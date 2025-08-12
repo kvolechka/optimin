@@ -96,7 +96,7 @@ body {
 
 .container {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 section {
@@ -131,9 +131,9 @@ h2::after {
     bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background-color: #146046;
+    width: 90px;
+    height: 2px;
+    background-color: #154131;
 }
 
 p {
@@ -210,7 +210,7 @@ p {
 header {
     background: linear-gradient(rgb(15 28 24 / 83%), rgb(7 44 38 / 91%)), url(../img/fon1.jpg) no-repeat center center / cover;
     color: white;
-    padding: 100px 0 80px;
+    padding: 23px 0 12px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -249,9 +249,9 @@ header {
 
 /* Products Section */
 .products {
-    background-color: var(--light-bg);
+    background-color: #073327;
     text-align: center;
-    padding: 40px 20px 20px;
+    padding: 30px 30px 0px;
 }
 
 .products h2 {
@@ -377,19 +377,19 @@ color: #146046;
 
 /* Affiliate Section */
 .affiliate {
-   
+    background-color: #073327;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 30px 20px;
     position: relative;
 }
 
 .affiliate h3 {
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 20px;
-    color: #146046;
+    color: #e4fff5;
     position: relative;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .affiliate p {
@@ -407,12 +407,12 @@ color: #146046;
     gap: 20px;
     max-width: 400px;
     margin: 0 auto;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 .affiliate-icon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: rgba(255,255,255,0.1);
     display: flex;
@@ -452,31 +452,36 @@ background-color: #1976d2;
     margin-top: 15px;
 }
 
-.affiliate h3::after {
+.affiliate h3::after, .contact h2::after {
     content: "";
     position: absolute;
     bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background-color: #146046;
+    width: 90px;
+    height: 1px;
+    background-color: #e4fef5;
 }
-
+.container.prod {
+    box-shadow: 0px 6px 16px rgb(107 192 176 / 63%);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    background-color: #edfff6;
+}
 /* Contact Section */
 .contact {
-    background: #ffffff4a;
-    padding: 35px 0 20px;
-    border-radius: 20px;
+    padding: 20px 0 8px;
+    /* border-radius: 20px; */
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
     /* border: 7px solid #146046; */
-    box-shadow: 0px 6px 16px rgb(23 83 72 / 63%);
-    margin-bottom: 40px;
+    /* box-shadow: 0px 6px 16px rgb(23 83 72 / 63%); */
+    margin-bottom: 0px;
 }
 
 .contact h2 {
-    color: #146046;
+    color: #e4fef5;
 }
 
 .leaf-5 {
@@ -711,9 +716,9 @@ background-color: #1976d2;
 
 /* Footer */
 footer {
-    background-color: #113b31;
+    background-color: #05241d;
     color: var(--light);
-    padding: 30px 0;
+    padding: 3px 0;
     text-align: center;
 }
 
@@ -739,6 +744,7 @@ footer {
 
 .footer-req p {
     margin-bottom: 0;
+    font-size: 12px;
 }
 
 .footer-req div {
@@ -758,7 +764,7 @@ footer {
     }
     
     h2 {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 1.2;
         font-weight: 700;
     }
@@ -781,6 +787,7 @@ footer {
     .header-content p {
         font-size: 23px;
         line-height: 1.4;
+        font-weight: 300;
     }
 
 
@@ -799,7 +806,9 @@ footer {
     }
 
     .contact h2 {
-        font-size: 26px;
+
+        font-size: 22px;
+    font-weight: 300;
     }
 
    
