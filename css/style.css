@@ -86,7 +86,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: var(--dark);
     line-height: 1.6;
-    background-color: var(--light);
+    background-color: #073327;
     max-width: 480px;
     margin: 0 auto;
     position: relative;
@@ -111,7 +111,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
     line-height: 1.2;
     color: var(--light);
 }
@@ -119,7 +119,7 @@ h1 {
 h2 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
     color: var(--primary);
     z-index: 2;
@@ -184,7 +184,7 @@ p {
     justify-content: center;
     gap: 10px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 9px;
     font-size: 20px;
     color: white;
     font-weight: 600;
@@ -380,13 +380,14 @@ color: #146046;
     background-color: #073327;
     color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 15px 0px 25px;
     position: relative;
+    border-top: 3px solid #031f18;
 }
 
 .affiliate h3 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
     color: #e4fff5;
     position: relative;
     font-weight: 300;
@@ -440,8 +441,12 @@ background-color: #1976d2;
     background-color: transparent;
    
 }
-
-
+.contact-btn.vib{
+    background-color: #6f3faa;
+}
+.contact-btn.vib img {
+    width: 40px;
+}
 
 .affiliate-icon:hover {
     background-color: var(--accent);
@@ -513,13 +518,14 @@ background-color: #1976d2;
     gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .contact-btn {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 2px 20px;
+    gap: 2px;
+    padding: 2px 5px;
     background-color: var(--primary);
     border-radius: 8px;
     text-decoration: none;
@@ -529,7 +535,7 @@ background-color: #1976d2;
     position: relative;
     overflow: hidden;
     z-index: 1;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact-btn.wt {
@@ -716,9 +722,8 @@ background-color: #1976d2;
 
 /* Footer */
 footer {
-    background-color: #05241d;
     color: var(--light);
-    padding: 3px 0;
+    padding: 10px 0 3px;
     text-align: center;
 }
 
@@ -786,7 +791,7 @@ footer {
     }
     .header-content p {
         font-size: 23px;
-        line-height: 1.4;
+        line-height: 1.2;
         font-weight: 300;
     }
 
@@ -818,8 +823,13 @@ footer {
 
     .contact-btn.tg {
         background-color: #29b6f6;
+       
     }
 
+    .contact-btn.tg img {
+        background-color: #29b6f6;
+        width: 40px;
+    }
 
 .popup-overlay {
     position: fixed;
