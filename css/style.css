@@ -133,7 +133,7 @@ h2::after {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #1f7357;
+    background-color: #146046;
 }
 
 p {
@@ -255,7 +255,7 @@ header {
 }
 
 .products h2 {
-color: #1f7357;
+color: #146046;
 }
 
 .leaf-3 {
@@ -387,7 +387,7 @@ color: #1f7357;
 .affiliate h3 {
     font-size: 26px;
     margin-bottom: 20px;
-    color: #1f7357;
+    color: #146046;
     position: relative;
     font-weight: 700;
 }
@@ -460,7 +460,7 @@ background-color: #1976d2;
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background-color: #1f7357;
+    background-color: #146046;
 }
 
 /* Contact Section */
@@ -470,13 +470,13 @@ background-color: #1976d2;
     border-radius: 20px;
     text-align: center;
     margin-top: 40px;
-    /* border: 7px solid #1f7357; */
+    /* border: 7px solid #146046; */
     box-shadow: 0px 6px 16px rgb(23 83 72 / 63%);
     margin-bottom: 40px;
 }
 
 .contact h2 {
-    color: #1f7357;
+    color: #146046;
 }
 
 .leaf-5 {
